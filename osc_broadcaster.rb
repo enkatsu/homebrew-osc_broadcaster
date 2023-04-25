@@ -10,6 +10,6 @@ class OscBroadcaster < Formula
   end
 
   test do
-    assert_match "osc_broadcaster #{@version}", shell_output("#{bin}/osc_broadcaster -V")
+    assert_match "osc_broadcaster #{version}", shell_output("#{bin}/osc_broadcaster -V")
   end
 end
